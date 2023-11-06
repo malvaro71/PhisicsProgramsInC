@@ -1,4 +1,2 @@
 # PhisicsProgramsInC
-new line
-second line
-third line
+Repository for c++ programs about physics and Mathematics.
