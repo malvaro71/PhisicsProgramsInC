@@ -5,7 +5,7 @@ vector coordiantes x and y.*/
 using namespace std;
 
 int main() {
-    // Define vector cordiantes (x, y) and vector module and orientation as double. from git
+    // Define vector cordiantes (x, y) and vector module and orientation as double. from git2
     double x, y, module, orientation;
     //Ask for x-coordiante.
     cout << "Enter the x coordinate: ";
