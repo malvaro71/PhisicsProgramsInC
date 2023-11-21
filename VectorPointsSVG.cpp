@@ -21,14 +21,14 @@ int main() {
     cout << "Enter the y coordinate for vector end: ";
     cin >> y2;
     //Calculate vector orientation.
-    angle = atan2(y, x) * 180 / M_PI;
+    angle = atan2(y2-y1, x2-x1) * 180 / M_PI;
     //Calculate x and y coordinates of first partial arrowhead extreme
-    x3 = x2 + headLength * cos(angle + 220 * Math.PI / 180);
-    y3 = y2 + headLength * sin(angle + 220 * Math.PI / 180);
+    x3 = x2 + headlength * cos(angle + 220 * M_PI / 180);
+    y3 = y2 + headlength * sin(angle + 220 * M_PI / 180);
     cout << "The first arrowhead extreme cordinates are (" << x3 << "," << y3 << ")";
     //Calculate x and y coordinates of second partial arrowhead extreme
-    x4 = x2 + headLength * cos(angle + 140 * Math.PI / 180);
-    y4 = x2 + headLength * sin(angle + 140 * Math.PI / 180);
+    x4 = x2 + headlength * cos(angle + 140 * M_PI / 180);
+    y4 = x2 + headlength * sin(angle + 140 * M_PI / 180);
     cout << "The second arrowhead extreme cordinates are (" << x4 << "," << y4 << ")";
     return 0;
 }
