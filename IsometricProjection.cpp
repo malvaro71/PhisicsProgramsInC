@@ -1,4 +1,4 @@
-/*This program calculates the isometric transform from a point with coordinates x1,y1,z1, in 3D space to a point with coodinates x2, y2 in a 2D plane.*/
+/*This program calculates the isometric transform from a point with coordinates x1,y1,z1, in 3D space to a point with coodinates x2, y2 in a 2D plane. Reference: https://en.wikipedia.org/wiki/Isometric_projection*/
 #include <iostream>
 #include <cmath>
 using namespace std;
