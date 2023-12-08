@@ -15,8 +15,8 @@ int main() {
    // 3D x-axis is skewed 45 degrees and is oriented toward the svg Canva
    const double skewedAngle = 45*M_PI/180; //expressed in radians.
    // SVG canva coordinates of 3D origin (0, 0, 0) 
-   const double Ox = svgWidth*cos(skewedAngle)/2;
-   const double Oy = svgHeight*(1/2 + cos(skewedAngle)/2);
+   const double Ox = svgWidth*sin(skewedAngle)/2;
+   const double Oy = svgHeight*(1 - cos(skewedAngle)/2);
    //Ask for x-coordinate.
    cout << "Enter the x coordinate of 3D point: ";
    cin >> x1;
