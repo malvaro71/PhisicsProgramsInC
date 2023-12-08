@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     // Define vector cordiantes of V1 <x1, y1, z1> and V2 <x2, y2, z2> and resultant vector <x3, y3, z3>.
     double x1, y1, z1, x2, y2, z2, x3, y3, z3;
-	cout << "This program calculates the cross product of two given vectors V1 and V2.";
+	cout << "This program calculates the cross product of two given vectors V1 and V2.\n";
     //Ask for x1 coordinate of vector V1.
     cout << "Enter the x1 coordinate of vector V1: ";
     cin >> x1;
