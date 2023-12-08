@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
    // Define 3D point cordiantes (x1, y1, z1) and 2D point coordinates (x2, y2) as double.
-   double x1, y1, , z1, x2, y2;
+   double x1, y1, z1, x2, y2;
    //Ask for x1-coordiante.
    cout << "Enter the x coordinate of 3D point ";
    cin >> x1;
