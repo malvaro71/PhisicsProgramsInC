@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/Users/malva/eigen-3.4.0/"
             ],
             "defines": [
                 "_DEBUG",
